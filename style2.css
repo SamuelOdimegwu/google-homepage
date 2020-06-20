@@ -1,0 +1,156 @@
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+.img1 {
+    width: 100px;
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 28px;
+}
+
+.img2 {
+    position: relative;
+    right: 20px;
+    width: 30px;
+}
+
+input {
+    width: 690px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+}
+
+#top {
+    display: block;
+    height: 65px;
+    background: none;
+}
+
+#top .img1 input {
+    float: left;
+    margin: 0 90px;
+    display: inline-block;
+    border: 1px solid white;
+    background-color: white;
+    position: fixed;
+}
+
+#top .img2 {
+    float: right;
+}
+
+#top .img1 input .img2 {
+    margin-top: 20px;
+    position: fixed;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.links {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.bottom-left {
+    display: inline-block;
+}
+
+.bottom-right {
+    display: inline-block;
+    position: relative;
+    left: 160px;
+}
+
+.card {
+    border: none;
+    width: 620px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 150px;
+    padding: 15px 19px;
+    box-shadow: 1px 1px 10px 0 rgba(32, 33, 36, 0.1);
+    margin-top: 30px;
+}
+
+.para {
+    margin-left: 150px;
+    font-size: 14px;
+}
+
+h3 a,
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+h2 a,
+p a {
+    text-decoration: none;
+    color: #2200CC;
+}
+
+.body {
+    text-align: justify;
+    font-size: 14px;
+}
+
+#links a {
+    margin: 0px 14px;
+}
+
+.links a:hover {
+    color: #2200cc;
+}
+
+.footer a {
+    color: black;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    padding-left: 30px;
+}
+
+.footer {
+    position: relative;
+    left: 150px;
+    border-bottom: 1px solid #afafaf;
+    width: 100%;
+    padding: 0px 0px 10px 0px;
+}
+
+.foot {
+    position: relative;
+    left: 70px;
+    top: 10px;
+    padding: 0px 0px 15px 0px;
+}
+
+footer {
+    display: block;
+    position: absolute;
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    background-color: rgba(32, 33, 36, 0.1);
+}
