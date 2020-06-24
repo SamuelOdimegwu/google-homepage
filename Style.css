@@ -1,3 +1,7 @@
+body {
+    zoom: 98%;
+}
+
 input {
     width: 580px;
     height: 25px;
@@ -37,10 +41,6 @@ input {
     margin-left: 50px;
 }
 
-img {
-    margin-top: 200px;
-}
-
 .lang {
     margin-top: 40px;
 }
@@ -61,6 +61,7 @@ img {
     margin: 5px;
     padding: 30;
     position: relative;
+    top: 15px;
 }
 
 .header a,
@@ -91,7 +92,10 @@ header {
 }
 
 #img2 {
+    position: relative;
     margin-left: 200px;
+    top: 0px;
+    margin-top: 200px;
 }
 
 .txt a {
@@ -103,28 +107,43 @@ header {
     margin: 5px;
 }
 
-footer {
-    margin-top: 110px;
-    background-color: #f2f2f2;
-    border: 1px solid black;
-    height: 88px;
-}
-
 footer a {
     color: black;
     text-decoration: none;
 }
 
-.footer2 {
-    float: right;
+footer {
+    position: relative;
+    top: 155px;
+    background-color: #f2f2f2;
+    padding-top: 20px;
+    padding-bottom: 0.0125px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .footer1 {
-    border: 1px solid black;
-    height: 35px;
+    position: relative;
+    left: 50px;
 }
 
-.footer1 a {
-    margin: 10px;
-    padding: 10px;
+.footer4 {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+}
+
+.footer4 a {
+    padding-right: 18px;
+}
+
+.footer2 {
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 10px;
+}
+
+.footer2 a {
+    padding-left: 18px;
 }
